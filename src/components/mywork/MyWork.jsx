@@ -17,7 +17,7 @@ const MyWork = () => {
             })}
         </div>
         <div className="mywork-showmore">
-            <p>Show More</p>
+            <p><a href="https://github.com/LakshanJayaweera426" target="self">Show More</a></p>
             <img src={arrow_icon}/>
         </div>
     </div>

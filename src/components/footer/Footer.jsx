@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import footer_logo from '../../assets/logo.jpg'
 import user_icon from '../../assets/user_icon.svg'
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-top">
             <div className="footer-top-left">
                 <img src={footer_logo}/>
-                <p>Paragraph ------------ --------------- -------------- ----------- ----------</p>
+                <p>I'm a fullstack devoloper from Sri Lanka with 6 months of experience in Unify Solutions. </p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">&copy; 2024 Alex Bennett. All rights reserved.</p>
+            <p className="footer-bottom-left">&copy; 2024 Lakshan Jayaweera. All rights reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>

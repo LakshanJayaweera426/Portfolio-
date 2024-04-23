@@ -5,13 +5,14 @@
     gap:35px;
 }
 .hero img{
-    margin-top: 40px;
+    margin-top: 20px;
+    width: 300px;
 
 }
 .hero h1{
     text-align: center;
-    width: 70%;
-    font-size: 70px;
+    width: 65%;
+    font-size: 60px;
     font-weight: 600;
 }
 .hero h1 span{
@@ -19,6 +20,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 75px;
 }
 .hero p{
     width: 50%;
@@ -48,6 +50,7 @@
 }
 .hero-connect:hover{
     border: 2px solid white;
+    font-weight: 500;
 }
 .hero-resume:hover{
     border-color: #B425FF;
