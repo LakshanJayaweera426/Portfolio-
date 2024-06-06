@@ -21,7 +21,7 @@ const Services = () => {
             })}
         </div>
         <div className="services-showmore">
-            <p><a href="#">Show More</a></p>
+            <p><a href="https://sites.google.com/d/1YTl4rrl18vg8fdGa36aPfNcx_RqzxFts/p/1hvgD8C0BnXptfLm3g1YTsGf_osUsCK-R/edit" target="self">Show More</a></p>
             <img src={arrow_icon}/>
         </div>
     </div>
