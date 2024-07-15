@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/myone.jpg'
+import profile_img from '../../assets/myone2.png'
 
 
 const About = () => {
@@ -20,6 +20,7 @@ const About = () => {
                     <div className="about-achievement">
                         <h1>6+</h1>
                         <p>MONTHS OF EXPERIENCE</p>
+                        <span className="company">As a front-end developer <br /> at Unify Solutions (PVT) Ltd.</span>
                     </div>
                 </div>
                 <div className="about-achievement">
@@ -39,13 +40,13 @@ const About = () => {
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"80%"}}/></div>
                     <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
                     <div className="about-skill"><p>Bootstrap</p><hr style={{width:"80%"}}/></div>
-                    <div className="about-skill"><p>React JS</p><hr style={{width:"50%"}}/></div>
+                    <div className="about-skill"><p>React JS</p><hr style={{width:"60%"}}/></div>
                     <hr/>
                     <div className="about-skill"><p>Python & PHP</p><hr style={{width:"60%"}}/></div> 
                     <div className="about-skill"><p>Django & Node.js</p><hr style={{width:"50%"}}/></div> 
                     <hr/>                 
-                    <div className="about-skill"><p>MySQL </p><hr style={{width:"60%"}}/></div> 
-                    <div className="about-skill"><p>MongoDB </p><hr style={{width:"60%"}}/></div> 
+                    <div className="about-skill"><p>MySQL </p><hr style={{width:"50%"}}/></div> 
+                    <div className="about-skill"><p>MongoDB </p><hr style={{width:"50%"}}/></div> 
                 </div>
             </div>
         </div>
