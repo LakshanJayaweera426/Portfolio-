@@ -63,3 +63,13 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width:1100px){
+    .footer-bottom-left {
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .footer-bottom-right {
+        font-size: 15px;
+        font-weight: 200;
+    }
+}

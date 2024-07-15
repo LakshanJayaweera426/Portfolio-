@@ -119,6 +119,26 @@
     .contact-section{
         gap: 100px;
     }
+    .contact-left p{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .contact-detail p{
+        font-size: 15px;
+    }
+    .contact-right label{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .contact-right input{
+        font-size: 18px;
+        height: 35px;
+        margin-top: -10px;
+    }
+    .contact-right button{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
 }
 @media(max-width:900px){
     .contact-section{
