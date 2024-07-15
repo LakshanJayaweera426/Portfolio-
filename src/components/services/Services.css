@@ -31,7 +31,7 @@
     margin-bottom: 40px;
 }
 .research-container-week img{
-    width: 400px;
+    width: 200px;
     height: auto;
 }
 .research-container-week img:hover{
@@ -70,4 +70,24 @@ a{
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+
+@media(max-width:900px){
+    .research-description p{
+        width: 400px;
+    }
+}
+@media(max-width:600px){
+    .services-title h1{
+        font-size: 25px;
+    }
+    .services-title img{
+        width: 50px;
+    }
+    .research-container-week img{
+        width: 300px;
+    }
+    .research-description p{
+        display: none;
+    }
 }
