@@ -6,6 +6,7 @@ import Services from "./components/services/Services";
 import MyWork from "./components/mywork/MyWork";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Bubbles from "./components/bubbles/Bubbles";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Services/>
       <Contact/>
       <Footer/>
+      <Bubbles />
     </div>
   )
 }

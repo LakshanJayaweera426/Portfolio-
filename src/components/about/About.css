@@ -116,13 +116,17 @@
     .about-skills{
         width: 500px;
     }
+    .about-skills p{
+        font-size: 18px;
+        
+    }
     .about-para{
-        font-weight: 300;
+        font-weight: 200;
+        font-size: 17px;
     }
-    .about-achievement{
-        margin-top: 200px;
-        margin-bottom: -40px;
-    }
+   .about-achievement p{
+    font-size: 18px;
+   }
 }
 @media (max-width:900px) {
     .about-para{
